@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PublicController;
+use App\Http\Controllers\ArtistsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,3 +16,4 @@ use App\Http\Controllers\PublicController;
 */
 
 Route::get('/',[PublicController::class, 'home'])->name('home');
+Route::get('/artists/index',[ArtistsController::class,'index'])->name('artists/index');

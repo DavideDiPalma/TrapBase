@@ -8,10 +8,10 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item me-4">
-            <a class="my-violet nav-font nav-link fs-3" aria-current="page" href="#">Home Page</a>
+            <a class="my-violet nav-font nav-link fs-3" aria-current="page" href="{{route('home')}}">Home Page</a>
           </li>
           <li class="nav-item me-4">
-            <a class="my-violet nav-font nav-link fs-3" href="#">Artists</a>
+            <a class="my-violet nav-font nav-link fs-3" href={{route('artists/index')}}>Artists</a>
           </li>
           <li class="nav-item me-4">
                 <a class="my-violet nav-font nav-link fs-3" href="#">Playlist</a>
