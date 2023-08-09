@@ -1,0 +1,38 @@
+/* body */
+body{
+    background-color: rgb(20, 20, 20);
+}
+/* Font */
+.nav-font,p,h2,h3,h4,h5,h6{
+    font-family: 'Permanent Marker';
+}
+h1{
+    font-family: 'Moirai One', cursive;
+    text-shadow: #512B81 2px 2px 1px;
+    
+}
+.boxs{
+    box-shadow: #512B81 20px 20px 15px;  
+}
+
+/* Colors */
+
+
+
+/* Homepage */
+
+/* Navbar */
+.nav-bar{
+    background-color:rgb(20, 20, 20);
+    border: #512B81 !important;
+    transition: none !important;
+}
+
+.my-violet{
+    color: #FF8551;
+}
+.bg-navbar{
+    background-color: rgb(20, 20, 20);
+}
+
+/* Footer */
